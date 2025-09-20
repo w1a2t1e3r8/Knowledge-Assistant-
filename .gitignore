@@ -1,0 +1,24 @@
+# Frontend (Vue) ignores
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend (FastAPI/Python) ignores
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/*.pyc
+backend/.pytest_cache/
+backend/instance/
+
+# General ignores
+.DS_Store
+Thumbs.db
+.idea
+.vscode
